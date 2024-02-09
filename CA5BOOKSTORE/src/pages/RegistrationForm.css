@@ -1,0 +1,57 @@
+
+
+.form-container {
+  width: 360px;
+  background-color: white;
+  margin: auto;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  padding: 10px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.form-field {
+  margin: 10px 0;
+  padding: 15px;
+  font-size: 16px;
+  border: 0;
+  font-family: 'Handjet', 'Poppins', 'Preahvihear', sans-serif;
+}
+
+span {
+  font-family: 'Handjet', 'Poppins', 'Preahvihear', sans-serif;
+  font-size: 14px;
+  color: red;
+  margin-bottom: 15px;
+}
+
+.success-message {
+  font-family: 'Handjet', 'Poppins', 'Preahvihear', sans-serif; 
+  background-color: #52c166da;
+  padding: 15px;
+  color: white;
+}
+
+input {
+  background: #e2e2e2;
+  color: #000000;
+}
+
+.error {
+  border: 2px solid #b31a1a;
+}
+
+button {
+  background: #000000;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}

@@ -1,0 +1,25 @@
+/* index.css */
+:root {
+  /* Adjust color scheme */
+  --primary-color: #646cff;
+  --secondary-color: #535bf2;
+  --background-color: #f9f9f9;
+  /* Add font families */
+  --heading-font: 'Poppins', sans-serif;
+  --body-font: 'Arial', sans-serif;
+}
+
+/* Add logo styling */
+.nav .site-title img {
+  max-width: 100px;
+}
+
+/* Adjust link color */
+a {
+  font-weight: 500;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--secondary-color);
+}
